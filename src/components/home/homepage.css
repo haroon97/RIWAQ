@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/**
+STYLES FOR NAVIGATION BAR
+**/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    padding-left: 1em;
+}
+
+.navbarList {
+    display: flex;
+    list-style: none;
+}
+
+.navbarListItem {
+    padding-right: 3em;
+}
+
+/**
+STYLES FOR THE MAIN BODY CONTENT
+**/
+.mainContent {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+}
+
+.serviceInfoContainerLeft {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-left: 2.5em;
+    padding-top: 2.5em;
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+.serviceInfoContainerRight {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2.5em;
+    padding-top: 2.5em;
+    position: relative;
+    flex-direction: row-reverse;
+}
+
+.serviceInfoBoxLeft {
+    width: 30%;
+    padding: 2em;
+    background-color: gray;
+    position: absolute;
+    left: 0;
+}
+
+.serviceInfoBoxRight {
+    width: 30%;
+    padding: 2em;
+    background-color: gray;
+    position: absolute;
+    right: 0;
+}
+
+.readMore {
+    float: right;
+}
+
+.image {
+    width: 75%;
+}
+
+/**
+STYLES FOR FOOTER
+**/
+
+.footer {
+    display: flex;
+    margin-top: 2em;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #172c44;
+    color: white;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+
+.copyright {
+    background-color: #0c152f;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
